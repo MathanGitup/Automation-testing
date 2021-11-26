@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-24T15:37:38 IST" name="MySuite" finished-at="2021-11-24T15:39:18 IST" duration-ms="100509">
+    <groups>
+    </groups>
+    <test started-at="2021-11-24T15:37:38 IST" name="ValidFirstLogin" finished-at="2021-11-24T15:38:43 IST" duration-ms="65494">
+      <class name="demo_1.pega_login_firstvalid">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demo_1.pega_login_firstvalid@2b91004a]" started-at="2021-11-24T15:37:38 IST" name="setup" finished-at="2021-11-24T15:37:40 IST" duration-ms="1726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launch_app()[pri:0, instance:demo_1.pega_login_firstvalid@2b91004a]" started-at="2021-11-24T15:37:40 IST" name="launch_app" finished-at="2021-11-24T15:37:52 IST" duration-ms="12278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="enter_user()[pri:0, instance:demo_1.pega_login_firstvalid@2b91004a]" started-at="2021-11-24T15:37:52 IST" name="enter_user" finished-at="2021-11-24T15:37:57 IST" depends-on-methods="demo_1.pega_login_firstvalid.launch_app" duration-ms="5169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_user -->
+        <test-method signature="enter_pswd()[pri:0, instance:demo_1.pega_login_firstvalid@2b91004a]" started-at="2021-11-24T15:37:57 IST" name="enter_pswd" finished-at="2021-11-24T15:38:02 IST" depends-on-methods="demo_1.pega_login_firstvalid.enter_user" duration-ms="5145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_pswd -->
+        <test-method signature="clicklogin()[pri:0, instance:demo_1.pega_login_firstvalid@2b91004a]" started-at="2021-11-24T15:38:02 IST" name="clicklogin" finished-at="2021-11-24T15:38:38 IST" depends-on-methods="demo_1.pega_login_firstvalid.enter_pswd" duration-ms="35588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="get_title()[pri:0, instance:demo_1.pega_login_firstvalid@2b91004a]" started-at="2021-11-24T15:38:38 IST" name="get_title" finished-at="2021-11-24T15:38:43 IST" depends-on-methods="demo_1.pega_login_firstvalid.clicklogin" duration-ms="5029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:demo_1.pega_login_firstvalid@2b91004a]" started-at="2021-11-24T15:38:43 IST" name="finish" finished-at="2021-11-24T15:38:43 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- demo_1.pega_login_firstvalid -->
+    </test> <!-- ValidFirstLogin -->
+    <test started-at="2021-11-24T15:38:44 IST" name="InvalidLogin" finished-at="2021-11-24T15:39:18 IST" duration-ms="34860">
+      <class name="demo_1.pega_login_secondinvalid">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demo_1.pega_login_secondinvalid@6253c26]" started-at="2021-11-24T15:38:44 IST" name="setup" finished-at="2021-11-24T15:38:45 IST" duration-ms="1256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launch_app()[pri:0, instance:demo_1.pega_login_secondinvalid@6253c26]" started-at="2021-11-24T15:38:45 IST" name="launch_app" finished-at="2021-11-24T15:38:57 IST" duration-ms="12008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="enter_user()[pri:0, instance:demo_1.pega_login_secondinvalid@6253c26]" started-at="2021-11-24T15:38:57 IST" name="enter_user" finished-at="2021-11-24T15:39:02 IST" depends-on-methods="demo_1.pega_login_secondinvalid.launch_app" duration-ms="5129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_user -->
+        <test-method signature="enter_pswd()[pri:0, instance:demo_1.pega_login_secondinvalid@6253c26]" started-at="2021-11-24T15:39:02 IST" name="enter_pswd" finished-at="2021-11-24T15:39:07 IST" depends-on-methods="demo_1.pega_login_secondinvalid.enter_user" duration-ms="5141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_pswd -->
+        <test-method signature="clicklogin()[pri:0, instance:demo_1.pega_login_secondinvalid@6253c26]" started-at="2021-11-24T15:39:07 IST" name="clicklogin" finished-at="2021-11-24T15:39:13 IST" depends-on-methods="demo_1.pega_login_secondinvalid.enter_pswd" duration-ms="5906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="get_title()[pri:0, instance:demo_1.pega_login_secondinvalid@6253c26]" started-at="2021-11-24T15:39:13 IST" name="get_title" finished-at="2021-11-24T15:39:18 IST" depends-on-methods="demo_1.pega_login_secondinvalid.clicklogin" duration-ms="5030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:demo_1.pega_login_secondinvalid@6253c26]" started-at="2021-11-24T15:39:18 IST" name="finish" finished-at="2021-11-24T15:39:18 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- demo_1.pega_login_secondinvalid -->
+    </test> <!-- InvalidLogin -->
+  </suite> <!-- MySuite -->
+</testng-results>

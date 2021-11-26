@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [MySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="FirstLogin(failed)">
+    <classes>
+      <class name="demo_1.pega_login_twiceinvalid">
+        <methods>
+          <include name="enter_pswd1"/>
+          <include name="enter_user"/>
+          <include name="setup"/>
+          <include name="finish"/>
+          <include name="enter_user1"/>
+          <include name="finish1"/>
+          <include name="clicklogin"/>
+          <include name="enter_pswd"/>
+          <include name="launch_app"/>
+          <include name="clicklogin1"/>
+          <include name="launch_app1"/>
+        </methods>
+      </class> <!-- demo_1.pega_login_twiceinvalid -->
+    </classes>
+  </test> <!-- FirstLogin(failed) -->
+</suite> <!-- Failed suite [MySuite] -->

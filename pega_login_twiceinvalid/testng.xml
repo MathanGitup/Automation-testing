@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite"  >
+<!-- Parallel Cross-browser testing is done here -->
+<test name="ValidFirstLogin">
+<classes>
+<class name="demo_1.pega_login_firstvalid"/>
+</classes>
+</test> 
+<test name="InvalidLogin">
+<classes>
+<class name="demo_1.pega_login_secondinvalid"/>
+</classes>
+</test> 
+</suite>
