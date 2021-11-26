@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite" parallel="tests" thread-count="2" >
+<!-- Parallel Cross-browser testing is done here -->
+<test name="FirstLogin">
+<parameter name="Logintype" value="first"></parameter>
+<classes>
+<class name="demo_1.pega_login_thrice"/>
+</classes>
+</test> 
+<test name="secondlogin">
+<parameter name="Logintype" value="second"></parameter>
+<classes>
+<class name="demo_1.pega_login_thrice"/>
+</classes>
+</test> 
+<test name="Thirdlogin">
+<parameter name="Logintype" value="Third"></parameter>
+<classes>
+<class name="demo_1.pega_login_thrice"/>
+</classes>
+</test> 
+
+</suite>

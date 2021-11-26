@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [MySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="FirstLogin(failed)">
+    <parameter name="Logintype" value="first"/>
+    <classes>
+      <class name="demo_1.pega_login_thrice">
+        <methods>
+          <include name="enter_pswd"/>
+          <include name="launch_app"/>
+          <include name="enter_user"/>
+          <include name="clicklogin"/>
+          <include name="setup"/>
+          <include name="finish"/>
+          <include name="get_title"/>
+        </methods>
+      </class> <!-- demo_1.pega_login_thrice -->
+    </classes>
+  </test> <!-- FirstLogin(failed) -->
+  <test thread-count="2" parallel="tests" name="secondlogin(failed)">
+    <parameter name="Logintype" value="second"/>
+    <classes>
+      <class name="demo_1.pega_login_thrice">
+        <methods>
+          <include name="enter_pswd"/>
+          <include name="launch_app"/>
+          <include name="enter_user"/>
+          <include name="clicklogin"/>
+          <include name="setup"/>
+          <include name="finish"/>
+          <include name="get_title"/>
+        </methods>
+      </class> <!-- demo_1.pega_login_thrice -->
+    </classes>
+  </test> <!-- secondlogin(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
