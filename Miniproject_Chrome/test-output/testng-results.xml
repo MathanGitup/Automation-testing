@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-31T09:56:41 IST" name="Default suite" finished-at="2022-01-31T09:57:28 IST" duration-ms="47203">
+    <groups>
+    </groups>
+    <test started-at="2022-01-31T09:56:41 IST" name="Default test" finished-at="2022-01-31T09:57:28 IST" duration-ms="47203">
+      <class name="Miniproj_1.Selenium_miniproject">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Miniproj_1.Selenium_miniproject@6392827e]" started-at="2022-01-31T09:56:41 IST" name="setup" finished-at="2022-01-31T09:56:43 IST" duration-ms="1920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launchapp()[pri:0, instance:Miniproj_1.Selenium_miniproject@6392827e]" started-at="2022-01-31T09:56:43 IST" name="launchapp" finished-at="2022-01-31T09:56:45 IST" duration-ms="2241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method signature="enteruser()[pri:0, instance:Miniproj_1.Selenium_miniproject@6392827e]" started-at="2022-01-31T09:56:45 IST" name="enteruser" finished-at="2022-01-31T09:56:45 IST" depends-on-methods="Miniproj_1.Selenium_miniproject.launchapp" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteruser -->
+        <test-method signature="enterpswd()[pri:0, instance:Miniproj_1.Selenium_miniproject@6392827e]" started-at="2022-01-31T09:56:45 IST" name="enterpswd" finished-at="2022-01-31T09:56:45 IST" depends-on-methods="Miniproj_1.Selenium_miniproject.enteruser" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterpswd -->
+        <test-method signature="clicklogin()[pri:0, instance:Miniproj_1.Selenium_miniproject@6392827e]" started-at="2022-01-31T09:56:45 IST" name="clicklogin" finished-at="2022-01-31T09:57:00 IST" depends-on-methods="Miniproj_1.Selenium_miniproject.enterpswd" duration-ms="14346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="clickplusicon()[pri:0, instance:Miniproj_1.Selenium_miniproject@6392827e]" started-at="2022-01-31T09:57:00 IST" name="clickplusicon" finished-at="2022-01-31T09:57:03 IST" depends-on-methods="Miniproj_1.Selenium_miniproject.clicklogin" duration-ms="3220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickplusicon -->
+        <test-method signature="editlead()[pri:0, instance:Miniproj_1.Selenium_miniproject@6392827e]" started-at="2022-01-31T09:57:03 IST" name="editlead" finished-at="2022-01-31T09:57:10 IST" depends-on-methods="Miniproj_1.Selenium_miniproject.clickplusicon" duration-ms="7533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editlead -->
+        <test-method signature="convertlead()[pri:0, instance:Miniproj_1.Selenium_miniproject@6392827e]" started-at="2022-01-31T09:57:10 IST" name="convertlead" finished-at="2022-01-31T09:57:27 IST" depends-on-methods="Miniproj_1.Selenium_miniproject.editlead" duration-ms="16797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertlead -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Miniproj_1.Selenium_miniproject@6392827e]" started-at="2022-01-31T09:57:27 IST" name="finish" finished-at="2022-01-31T09:57:28 IST" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Miniproj_1.Selenium_miniproject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

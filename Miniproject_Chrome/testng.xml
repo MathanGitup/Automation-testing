@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite"  thread-count="2" >
+<!-- Parallel Cross-browser testing is done here -->
+<test name="TestingOnChrome">
+<classes>
+<class name="Miniproj_1.Selenium_miniproject"/>
+</classes>
+</test>
+ </suite>

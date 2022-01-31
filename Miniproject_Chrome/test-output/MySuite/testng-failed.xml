@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [MySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" name="TestingOnChrome(failed)">
+    <classes>
+      <class name="Miniproj_1.Selenium_miniproject">
+        <methods>
+          <include name="finish"/>
+          <include name="test1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Miniproj_1.Selenium_miniproject -->
+    </classes>
+  </test> <!-- TestingOnChrome(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
